@@ -1,0 +1,398 @@
+# New Gods List
+
+- number: 1
+  title: Serenity Guardian
+  pronouns: they/them
+  image-name: New-God-1-Serenity-Guardian
+  description: >-
+    The Serenity Guardian was born at the confluence of two powerful rivers, 
+    where the moon cast its gentle glow on the water. They wield the power to 
+    bring harmony to the forces of nature and the human world, drawing energy 
+    from the moon to create equilibrium. People honor them by lighting red 
+    candles on turquoise-laden altars, invoking their presence to calm turbulent 
+    emotions and conflicts.
+  attributes:
+    - Tranquil
+    - Wise
+    - Mystical
+  day: Full Moon Night
+  herb: Mugwort
+  stone: Moonstone
+  element: Water
+  source: Rivers
+
+- number: 2
+  title: Prism Watcher
+  pronouns: they/them
+  image-name: New-God-2-Prism-Watcher
+  description: >-
+    The Prism Watcher emerged from a volcanic eruption, their seven deep blue eyes 
+    absorbing the colors of the rainbow. They possess the power to instill creativity, 
+    inspiration, and unity among people. Their radiant presence calls forth the 
+    beauty of diversity and interconnectedness. Devotees celebrate the Prism Watcher 
+    by raising rainbow banners and lighting red candles, inviting inspiration and unity 
+    into their lives.
+  attributes: 
+    - Creative
+    - Visionary
+    - Unifying
+  day: Summer Solstice
+  herb: Ginger
+  stone: Opal
+  element: Fire
+  source: Volcanoes
+
+- number: 3
+  title: Shadow Seer
+  pronouns: they/them
+  image-name: New-God-3-Shadow-Seer
+  description: >-
+    The Shadow Seer was born from the depths of a midnight eclipse, a blue skull 
+    with fiery orange highlights and gleaming gold eyes and teeth. They hold the power 
+    to illuminate the unknown, guiding individuals through darkness and uncertainty. 
+    The Shadow Seer's followers honor them with orange candles encircling their altar, 
+    invoking the wisdom to navigate life's mysteries.
+  attributes: 
+    - Enlightening
+    - Intuitive
+    - Fearless
+  day: Lunar Eclipse
+  herb: Rosemary
+  stone: Obsidian
+  element: Air
+  source: Shadows and Darkness
+
+- number: 4
+  title: Luminescent Sovereign
+  pronouns: they/them
+  image-name: New-God-4-Luminescent-Sovereign
+  description: >-
+    The Luminescent Sovereign emerged from the heart of a supernova, adorned with 
+    yellow gold and an ornate red necklace. With an elaborate headdress and a warm 
+    smile, they bring light, joy, and abundance to the world. Surrounded by white 
+    candles, the Luminescent Sovereign's altar is a beacon of hope, gratitude, and 
+    celebration. Their devotees gather under shimmering lights to honor and invoke 
+    their radiant presence.
+  attributes: 
+    - Joyful
+    - Abundant
+    - Inspiring
+  day: Winter Solstice
+  herb: Clove
+  stone: Citrine
+  element: Fire
+  source: Supernovas and Starlight
+
+- number: 5
+  title: Celestial Trickster
+  pronouns: they/them
+  image-name: New-God-5-Celestial-Trickster
+  description: >-
+    The Celestial Trickster descended from the vibrant dance of the aurora 
+    borealis, their visage reminiscent of a playful monkey adorned with white 
+    and blue hues, gold eyes and teeth, and a red mark on their forehead. They 
+    embody the spirit of curiosity, adaptability, and transformation. The 
+    Celestial Trickster's followers honor them with candles and rainbow banners, 
+    inviting the energy of change and the courage to explore new horizons.
+  attributes: 
+    - Playful
+    - Transformative
+    - Adventurous
+  day: April 1st
+  herb: Oregano
+  stone: Lapis Lazuli
+  element: Air
+  source: Aurora Borealis
+
+- number: 6
+  title: Engraved Sentinel
+  pronouns: he/him
+  image-name: New-God-6-Engraved-Sentinel
+  description: >-
+    The Engraved Sentinel was forged from the molten core of a celestial body, 
+    a small gold skull intricately engraved with ancient wisdom. He has the 
+    power to protect and guide those who seek knowledge and truth. His presence 
+    is amplified by the watchful gaze of a larger ethereal head, which looms in 
+    the background. Surrounded by white candles, the Engraved Sentinel's altar 
+    is a place for seekers to contemplate the mysteries of the universe.
+  attributes: 
+    - Wise
+    - Protective
+    - Enigmatic
+  day: Autumn Equinox
+  herb: Thyme
+  stone: Pyrite
+  element: Earth
+  source: Celestial Bodies and Cosmic Energy
+
+- number: 7
+  title: Flora Radiance
+  pronouns: she/her
+  image-name: New-God-7-Flora-Radiance
+  description: >-
+    Flora Radiance blossomed from the heart of a serene garden, her blue face 
+    adorned with a headdress of marigolds and sunflowers. She holds the power 
+    to nurture life and inspire growth, bringing vitality to all living things. 
+    Her devotees honor her with tiny candles lit under the pale blue moonlight, 
+    invoking her loving presence to guide them on their journey of personal 
+    development.
+  attributes: 
+    - Nurturing
+    - Life-giving
+    - Uplifting
+  day: Spring Equinox
+  herb: Sunflower
+  stone: Amber
+  element: Earth
+  source: Gardens and Flowering Plants
+
+- number: 8
+  title: Agave Neighbor
+  pronouns: he/him
+  image-name: New-God-8-Agave-Neighbor
+  description: >-
+    The Agave Neighbor sprouted from the soil of a vibrant agave field, his 
+    blue and white smiling head reminiscent of the mezcal plants from which 
+    he was born. He embodies the spirit of celebration, connection, and 
+    camaraderie. His followers gather around altars adorned with small orange 
+    candles, seeking his guidance in cultivating joy and fostering strong 
+    bonds within their communities.
+  attributes: 
+    - Joyous
+    - Social
+    - Spirited
+  day: July 30
+  herb: Wormwood
+  stone: Agate
+  element: Earth
+  source: Agave Fields
+
+- number: 9
+  title: Neon Oracle
+  pronouns: she/her
+  image-name: New-God-9-Neon-Oracle
+  description: >-
+    The Neon Oracle emerged from the depths of a bioluminescent ocean, her 
+    solemn face traced with neon blue outlines that accentuate her eyes, 
+    eyebrows, nose, and mouth. She holds the power to reveal hidden truths 
+    and guide individuals toward self-discovery. Her presence is amplified 
+    by a larger, enigmatic statue with hues of blue and pink, which watches 
+    over the altar. Devotees light candles on both sides of the Neon Oracle, 
+    seeking clarity and wisdom in their personal quests.
+  attributes: 
+    - Insightful
+    - Mysterious
+    - Revealing
+  day: May 22nd
+  herb: Cilantro
+  stone: Fluorite
+  element: Water
+  source: Bioluminescent Oceans
+
+- number: 10
+  title: Ascending Sage
+  pronouns: they/them
+  image-name: New-God-10-Ascending-Sage
+  description: >-
+    The Ascending Sage materialized in the midst of a prismatic rain shower, 
+    their tall, thin head crowned with thick hair and a distinct point. As 
+    the colors of the rainbow enveloped them, they gained the power to impart 
+    wisdom and emotional balance to those who seek their guidance. The Ascending 
+    Sage's followers revere their ability to offer insight and harmony in the 
+    face of life's challenges. With a vibrant rainbow serving as their backdrop, 
+    the Ascending Sage's altar is a beacon of hope and understanding for all 
+    who approach.
+  attributes: 
+    - Enlightened
+    - Harmonious
+    - Colorful
+  day: May 17th
+  herb: Sage
+  stone: Rainbow Quartz
+  element: Water
+  source: Rain
+
+- number: 11
+  title: Marigold Seer
+  pronouns: she/her
+  image-name: New-God-11-Marigold-Seer
+  description: >-
+    The Marigold Seer emerged from a serene moonlit night, her small round 
+    white skull adorned with blue facepaint and marigold paint around the eyes. 
+    She possesses the power to connect the living with the spirit world, offering 
+    guidance and comfort to those who seek her wisdom. A watchful guardian observes 
+    from a distance as her followers light red candles, invoking her presence to 
+    bridge the gap between worlds.
+  attributes: 
+    - Spiritual
+    - Compassionate
+    - Mystical
+  day: November 2nd 
+  herb: Marigold
+  stone: Amber
+  element: Earth
+  source: Ancestral Spirits
+
+- number: 12
+  title: Electric Sentinel
+  pronouns: he/him
+  image-name: New-God-12-Electric-Sentinel
+  description: >-
+    The Electric Sentinel is a deity of the digital age, an electronic entity 
+    shining with blue light. His solemn expression peers out from an illuminated 
+    box, embodying the power of knowledge, communication, and interconnectedness 
+    in an ever-evolving world. Followers gather around the Electric Sentinel, 
+    surrounded by lights that represent their connection to people across the globe.
+  attributes: 
+    - Knowledgeable
+    - Connected
+    - Adaptive
+  day: Every Sunday
+  herb: Eucalyptus
+  stone: Sodalite
+  element: Air
+  source: Electricity
+
+- number: 13
+  title: Golden Swirl
+  pronouns: they/them
+  image-name: New-God-13-Golden-Swirl
+  description: >-
+    The Golden Swirl was born from the fusion of fire and gold, a small golden 
+    head intricately carved with swirling patterns. A single lit candle juts 
+    proudly from the top of their head, symbolizing the eternal flame of 
+    knowledge and creativity. Their followers gather in the warm, flickering 
+    light of the candle, seeking inspiration and wisdom.
+  attributes: 
+    - Creative
+    - Enlightening
+    - Illuminating
+  day: Summer Solstice
+  herb: Calendula
+  stone: Goldstone
+  element: Fire
+  source: Candlelight
+
+- number: 14 
+  title: Techno Guardian
+  pronouns: he/him
+  image-name: New-God-14-Techno-Guardian
+  description: >-
+    The Techno Guardian materialized from the fusion of advanced technology and 
+    ancient wisdom, his blue and white robotic visage outlined in bright yellow. 
+    Standing sentinel before a mysterious altar, he represents the power of 
+    innovation and the preservation of sacred knowledge. Followers honor the 
+    Techno Guardian by lighting pillar candles, seeking guidance in bridging 
+    the past, present, and future.
+  attributes: 
+    - Innovative
+    - Protective
+    - Wise
+  day: September 8
+  herb: St John’s Wort
+  stone: Blue Apatite
+  element: Air
+  source: Futuristic Technology
+
+- number: 15
+  title: Radiant Harmony
+  pronouns: she/her
+  image-name: New-God-15-Radiant-Harmony
+  description: >-
+    Radiant Harmony was born in a moment of profound tranquility, sitting 
+    cross-legged with a serene smile, intricate nose adornment, and captivating 
+    gold eyes. She has the power to bring peace, balance, and inner calm to all 
+    who seek her guidance. Her followers honor her by surrounding her with red 
+    candles, inviting her soothing presence into their lives.
+  attributes: 
+    - Calming
+    - Balancing
+    - Soothing
+  day: Autumn Equinox
+  herb: Lavender
+  stone: Sunstone
+  element: Air
+  source: Sunsets
+
+- number: 16
+  title: Chromatic Visionary
+  pronouns: they/them
+  image-name: New-God-16-Chromatic-Visionary
+  description: >-
+    The Chromatic Visionary emerged from the cosmic union of light and shadow, 
+    their bluish-black and gold head displaying deep facial features. A rainbow 
+    background and an altar with more candles lit amplify their presence, 
+    symbolizing their power to inspire and guide people toward self-expression 
+    and authenticity. Followers honor the Chromatic Visionary with red candles, 
+    seeking empowerment and the courage to embrace their true selves.
+  attributes: 
+    - Inspiring
+    - Expressive
+    - Authentic
+  day: June 28
+  herb: Peppermint
+  stone: Labradorite
+  element: Air
+  source: Rainbows
+
+- number: 17
+  title: Electric Seer
+  pronouns: they/them
+  image-name: New-God-17-Electric-Seer
+  description: >-
+    The Electric Seer is an enigmatic being, their electric head featuring 
+    bright blue teeth, purple and red eyes, and blue adornments on their forehead. 
+    A cylindrical shape juts out of the top of their head, signifying the power of 
+    intuition and foresight. Surrounded by candles, the Electric Seer's altar is a 
+    place for seekers to gain insights into their destiny.
+  attributes: 
+    - Intuitive
+    - Perceptive
+    - Clairvoyant
+  day: October 30
+  herb: Yarrow
+  stone: Amethyst
+  element: Air
+  source: Thunderstorms
+
+- number: 18 
+  title: Geometric Oracle
+  pronouns: they/them
+  image-name: New-God-18-Geometric-Oracle
+  description: >-
+    The Geometric Oracle materialized from the wisdom of ancient civilizations, 
+    a small red being sitting cross-legged with a mouth resembling a grill. 
+    They wear an ornate, multi-layered turquoise and jade necklace and a 
+    headdress featuring a gold triangle, symbolizing the power of sacred 
+    geometry and spiritual growth. Rows of candles surround the Geometric Oracle, 
+    inviting their followers to embrace the mysteries of the universe.
+  attributes: 
+    - Enlightened
+    - Spiritual
+    - Ancient
+  day: Spring Equinox
+  herb: Borage
+  stone: Malachite
+  element: Earth
+  source: Crystal Formations
+
+- number: 19
+  title: Bone Sculptor
+  pronouns: they/them
+  image-name: New-God-19-Bone-Sculptor
+  description: >-
+    The Bone Sculptor arose from the depths of the earth, seemingly carved from 
+    bone and wearing an elaborate headdress. With eyes and teeth jutting out, 
+    they sit atop an intricate plate of carvings, embodying the power of 
+    transformation, rebirth, and resilience. Surrounded by white candles, the 
+    Bone Sculptor's followers honor them by embracing the cycle of life and death, 
+    seeking strength in times of change.
+  attributes: 
+    - Transformative
+    - Resilient
+    - Unyielding
+  day: November 1
+  herb: Rue
+  stone: Howlite
+  element: Earth
+  source: Fossilized Remains

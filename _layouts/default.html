@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#columns">The New Gods</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="columns">
+      {% for god in site.data.gods_list %}
+      <article class="column">
+        <picture>
+          <source srcset="./assets/webp/{{ god.image-name }}-400px.webp" type="image/webp">
+          <img src="./assets/jpg/{{ god.image-name }}-400px.jpg" alt="{{ god.title }}">
+        </picture>
+        <h2>{{ god.title }}</h2>
+        <p>{{ god.description }}</p>
+        <ul>
+          <li><span>Attributes:</span> {% for attribute in god.attributes %}{{ attribute }}{% unless forloop.last %}, {% endunless %}{% endfor %}</li>
+          <li><span>Their Day:</span> {{ god.day }}</li>
+          <li><span>Herb:</span> {{ god.herb }}</li>
+          <li><span>Stone:</span> {{ god.stone }}</li>
+          <li><span>Element:</span> {{ god.element }}</li>
+          <li><span>Source:</span> {{ god.source }}</li>
+        </li>
+      </article>
+      {% endfor %}
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>More information about this website...</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="mailto:{{ site.email }}">Contact Me</a>
+  </footer>
+</body>
+
+</html>
