@@ -4,10 +4,27 @@
   box-sizing: border-box;
 }
 
+@keyframes jiggle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-1px);
+  }
+  75% {
+    transform: translateY(px);
+  }
+}
+
+html {
+	scroll-behavior: smooth;
+}
 body {
-  font-family: Arial, sans-serif;
+	font-family: 'Chivo Mono', monospace;
   background-color: #222;
   color: #fff;
+  background-image: linear-gradient(to right, #333333 2%, #202020 10%, #202020 90%, #333333 98%);
+  font-size: .9rem;
 }
 
 a {
@@ -20,48 +37,94 @@ a:hover {
 }
 
 header {
-  background-color: #333;
-  padding: 1rem;
 }
-
+h1 {
+	font-family: 'Rubik Pixels', cursive;
+	margin: 0 auto 2rem auto;
+	width: 80%;
+	text-align: center;
+	font-size: 4rem;
+	padding: 2rem 0 0 0;
+}
 nav {
   display: flex;
   justify-content: space-around;
+  background: black;
+  padding: 1rem;
 }
-
 main {
   padding: 1rem;
 }
-
 .column {
-  margin-bottom: 2rem;
-  overflow: hidden;
+	margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+  border-bottom: dashed 5px #333333;
+  clear: both;
 }
-
-.column img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-  margin-right: 2rem;
+.column::after {
+  content: "";
+  clear: both;
+  display: table;
+  margin: 2rem;
 }
 .column picture {
 	float: left;
+	max-width: 50%;
+	margin-right: 2rem;
 }
-
+.column img {
+  max-width: 100%;
+  height: auto;
+      display: inline-block;
+      padding: 10px;
+      background-image: linear-gradient(to right, #202020, #202020);
+      background-clip: padding-box;
+      box-sizing: border-box;
+      border: solid 5px transparent;
+}
+.column:hover img {
+    background-image: linear-gradient(to right, #ff9900, #ff0066);
+}
+.column img:hover {
+}
 .column h2 {
-  margin-bottom: 0.5rem;
-  color: #ff9900;
+	font-family: 'Rubik Pixels', cursive;
+	font-size: 2rem;
+	line-height: 2rem;
+	padding: 1rem 0;
+	word-spacing: 5px;
 }
-
 .column ul {
 	list-style: inside;
 	margin: 10px;
 }
+.column li span {
+	color: #ff0066;
+}
+.column p {
+	background-image: linear-gradient(to right, #ff9900, #ff0066);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent;
+	margin-right: 1rem;
+}
+li.attribute span { color: #ff0066; }
+li.day span { color: orange; }
+li.herb span { color: springgreen; }
+li.stone span { color: skyblue; }
+li.element span { color: yellow; }
+li.source span { color: mediumpurple; }
 
 #about {
-  margin-top: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
 }
-
+#about h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
 footer {
   background-color: #333;
   padding: 1rem;
