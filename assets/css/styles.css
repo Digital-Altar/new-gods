@@ -93,7 +93,7 @@ h1 {
 .god-info {
 	border-top: solid 1px whitesmoke;
 	border-bottom: solid 1px whitesmoke;
-	margin: 10px;
+	margin: 10px 5px 20px 5px;
 	padding: 10px;
 }
 .god-info p {
