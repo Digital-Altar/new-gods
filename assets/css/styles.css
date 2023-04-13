@@ -93,8 +93,6 @@ h1 {
 .god-info {
 	border-top: solid 1px whitesmoke;
 	border-bottom: solid 1px whitesmoke;
-	padding: 20px;
-	margin: 20px;
 }
 .god-info p {
 	background-image: linear-gradient(to right, orange, red);
@@ -147,5 +145,8 @@ li span {
   .sidebar {
     height: auto;
     overflow-y: scroll;
+  }
+  main {
+  	padding: 1rem;
   }
 }
