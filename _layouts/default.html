@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
   <link rel="stylesheet" href="./assets/css/styles.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Rubik+Pixels&display=swap" rel="stylesheet"></head>
-
+</head>
 <body>
-  <header>
-    <h1>New Gods: The Ancestral Mosaic</h1>
+  <div class="hamburger" onclick="toggleSidebar()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="sidebar">
     <nav>
-      <a href="#columns">Meet The New Gods</a>
-      <a href="#about">About This Project </a>
-    </nav>
-  </header>
-
-  <main>
-    <section id="columns">
+      <a class="nav-title" href="#about">About This Project</a>
+      <a class="nav-title" href="#meet">Meet The New Gods</a>
       {% for god in site.data.gods_list %}
-      <article class="god column">
+        <a class="nav-god" href="#god{{ god.number }}" onclick="toggleSidebar()">{{ god.title }}</a>
+      {% endfor %}
+      <a class="nav-title" href="#contact">Contact the Artist</a>
+      <span class="copyright">&copy; 2023 <a href="https://digitalaltar.com">Digital Altar</a></span>
+    </nav>
+  </div>
+  <main>
+    <h1>New Gods: The Ancestral Mosaic</h1>
+    <p class="byline">by Digital Altar</p>
+    <section id="about">
+      <h2>About This Project</h2>
+      <p>New Gods: The Ancestral Mosaic is an artistic exploration created by <a href="https://digitalaltar.com">Digital Altar</a> &mdash; using ai and code as tools of expression. A vivid tribute and exploration into the artist’s identity, New Gods merges elements from ancient mythologies to conceive a modern-day pantheon. Each piece is a deeply personal homage to the harmonious blending of ancestral traditions and the ever-evolving, complicated story of interconnected heritage across generations.</p>
+    </section>
+
+    <section id="meet">
+      {% for god in site.data.gods_list %}
+      <article class="god" id="god{{ god.number }}">
       <picture class="god-img">
         <!-- WebP format -->
-        <source media="(min-width: 768px)" srcset="./assets/webp/{{ god.image-name }}-1000px.webp" type="image/webp">
+        <source media="(min-width: 600px)" srcset="./assets/webp/{{ god.image-name }}-1000px.webp" type="image/webp">
         <source srcset="./assets/webp/{{ god.image-name }}-400px.webp" type="image/webp">
         <!-- Fallback to JPEG format -->
-        <source media="(min-width: 768px)" srcset="./assets/jpg/{{ god.image-name }}-1000px.jpg">
+        <source media="(min-width: 600px)" srcset="./assets/jpg/{{ god.image-name }}-1000px.jpg">
         <img src="./assets/jpg/{{ god.image-name }}-400px.jpg" alt="{{ god.title }}">
       </picture>
         <div class="god-info">
@@ -36,28 +47,30 @@
           <p>{{ god.description }}</p>
           <ul>
             <li class="attribute">
-              <span>Attributes:</span> {% for attribute in god.attributes %}{{ attribute }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+              Attributes: <span>{% for attribute in god.attributes %}{{ attribute }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span> 
             </li>
-            <li class="day"><span>Their Day:</span> {{ god.day }}</li>
-            <li class="herb"><span>Herb:</span> {{ god.herb }}</li>
-            <li class="stone"><span>Stone:</span> {{ god.stone }}</li>
-            <li class="element"><span>Element:</span> {{ god.element }}</li>
-            <li class="source"><span>Source:</span> {{ god.source }}</li>
+            <li class="day">Their Day: <span>{{ god.day }}</span></li>
+            <li class="herb">Herb: <span>{{ god.herb }}</span></li>
+            <li class="stone">Stone: <span>{{ god.stone }}</span></li>
+            <li class="element">Element: <span>{{ god.element }}</span></li>
+            <li class="source">Source: <span>{{ god.source }}</span></li>
           </ul>
         </div>
       </article>
       {% endfor %}
     </section>
-
-    <section id="about">
-      <h2>About This Project</h2>
-      <p>New Gods: The Ancestral Mosaic is an artistic exploration created by <a href="https://digitalaltar.com">Digital Altar</a> &mdash; using ai and code as tools of expression. A vivid tribute and exploration into the artist’s identity, New Gods merges elements from ancient mythologies to conceive a modern-day pantheon. Each piece is a deeply personal homage to the harmonious blending of ancestral traditions and the ever-evolving, complicated story of interconnected heritage across generations.</p>
+    <section id="contact">
+      <h2>Contact the Artist</h2>
+      <ul>
+        <li><a href="https://digitalaltar.com">DigitalAltar.com</a></li>
+        <li>Twitter: <a href="https://twitter.com/digital_altar">@digital_altar</a></li>
+        <li>IG: <a href="https://www.instagram.com/digitalaltar/">@digitalaltar</a></li>
+        <li><a href="https://github.com/Digital-Altar/new-gods">This site @ Github</a></li>
+        <li>Find me on Tezos: digitalaltar.tez</li>
+        <li>Find me on Ethereum: digitalaltar.eth</li>
+      </ul>
     </section>
   </main>
-
-  <footer>
-    &copy; 2023 <a href="https://digitalaltar.com">Digital Altar</a>
-  </footer>
+  <script src="./assets/js/scripts.js"></script>
 </body>
-
 </html>
