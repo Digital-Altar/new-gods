@@ -81,14 +81,12 @@ h1 {
 .god picture {
 	margin-right: 2rem;
 }
-.god img {
+.god img, .god video {
 	max-width: 100%;
-	display: inline-block;
-	padding: 10px;
-	background-image: linear-gradient(to right, #202020, #202020);
-	background-clip: padding-box;
 	box-sizing: border-box;
-	border: solid 5px transparent;
+	border: solid 5px #202020;
+	margin: 10px auto;
+	text-align: center;
 }
 .god-info {
 	border-top: solid 1px whitesmoke;
@@ -117,7 +115,30 @@ li {
 li span { 
 	color: white; 
 }
-
+.attributes {
+    display: inline-block;
+    width: 50%;
+}
+.links {
+    display: inline-block;
+    vertical-align: top;
+   	list-style: none;
+}
+.links a {
+	padding: 10px 20px;
+	margin-bottom: 10px;
+	display: block;
+	background: #202020;
+}
+.god-container {
+  position: relative;
+  display: inline-block;
+}
+@media screen and (max-width: 900px) {
+	  .attributes {
+  	width: 100%;
+  }
+}
 @media screen and (max-width: 767px) {
   .hamburger {
     display: block;
@@ -141,7 +162,6 @@ li span {
     margin-left: 3rem;
   }
 }
-
 /* Add a media query for small screens to enable scrolling for the sidebar */
 @media screen and (max-height: 500px) {
   .sidebar {

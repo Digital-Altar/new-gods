@@ -34,18 +34,26 @@
     <section id="meet">
       {% for god in site.data.gods_list %}
       <article class="god" id="god{{ god.number }}">
-      <picture class="god-img">
-        <!-- WebP format -->
-        <source media="(min-width: 600px)" srcset="./assets/webp/{{ god.image-name }}-1000px.webp" type="image/webp">
-        <source srcset="./assets/webp/{{ god.image-name }}-400px.webp" type="image/webp">
-        <!-- Fallback to JPEG format -->
-        <source media="(min-width: 600px)" srcset="./assets/jpg/{{ god.image-name }}-1000px.jpg">
-        <img src="./assets/jpg/{{ god.image-name }}-400px.jpg" alt="{{ god.title }}">
-      </picture>
+        <div class="god-container">
+          <picture class="god-img">
+            <!-- WebP format -->
+            <source media="(min-width: 600px)" srcset="./assets/webp/{{ god.image-name }}-1000px.webp" type="image/webp">
+            <source srcset="./assets/webp/{{ god.image-name }}-400px.webp" type="image/webp">
+            <!-- Fallback to JPEG format -->
+            <source media="(min-width: 600px)" srcset="./assets/jpg/{{ god.image-name }}-1000px.jpg">
+            <img src="./assets/jpg/{{ god.image-name }}-400px.jpg" alt="{{ god.title }}" class="image">
+          </picture>
+          <div class="video-container" style="display: none;">
+            <video width="100%" autoplay muted loop>
+              <source src="{{ god.video }}" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
         <div class="god-info">
           <h2>{{ god.title }}</h2>
           <p>{{ god.description }}</p>
-          <ul>
+          <ul class="attributes">
             <li class="attribute">
               Attributes: <span>{% for attribute in god.attributes %}{{ attribute }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span> 
             </li>
@@ -54,6 +62,10 @@
             <li class="stone">Stone: <span>{{ god.stone }}</span></li>
             <li class="element">Element: <span>{{ god.element }}</span></li>
             <li class="source">Source: <span>{{ god.source }}</span></li>
+          </ul>
+          <ul class="links">
+            <li class="view-video"><a href="#god{{ god.number }}">View Video</a></li>
+            <li class="view-objkt"><a href="{{ god.objkt }}">View on OBJKT</a></li>
           </ul>
         </div>
       </article>
