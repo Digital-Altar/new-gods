@@ -81,7 +81,7 @@ h1 {
 .god picture {
 	margin-right: 2rem;
 }
-.god img, .god video {
+.god img {
 	max-width: 100%;
 	box-sizing: border-box;
 	border: solid 5px #202020;
